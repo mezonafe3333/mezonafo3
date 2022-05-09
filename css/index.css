@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.bar{
+    background-image: url("../media/3037916.png");
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size:cover ;
+}
+nav{
+    display: flex;
+    align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+.valo_logo{
+    color: rgb(185, 196, 196);
+    font-size: 35px;
+    font-family: 'VALORANT', sans-serif;  
+    padding-left: 20px;                                         
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 60px;
+    margin-top: 1%;
+}
+nav ul li a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 23px;
+     /* font-family: 'VALORANT', sans-serif;    */
+}
+nav ul li a:hover{
+    color: rgb(240, 47, 80);
+    transition: 0.4s;
+}
+#btt{
+    
+    font-size:30px ;
+    font-weight: bold;
+    border: none;
+    background:rgb(240, 47, 80) ;
+    border-radius: 30px;
+    padding: 20px 30px;
+    margin-right: 4%;
+    margin-top:0.5% ;
+}
+#btt a{
+    color: antiquewhite;
+    text-decoration: none;
+   
+}
+#btt:hover{
+    transform: scale(1.1);
+cursor: pointer;
+}
+.log
+{
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 52%;
+    left: 85%;
+    transform: translate(-50%,-50%);
+    background: rgba(45, 43, 43,0.5) ;
+    border-radius: 30px;
+    
+   
+
+}
+.log h1{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'VALORANT', sans-serif;  
+    /* font-weight: 500; */
+
+}
+.log input[type = "email"],.log input[type ="password"]
+{
+   
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(240, 47, 80) ;
+    /* padding: 20px 20px; */
+    width: 300px;
+    height: 50px;
+    color: antiquewhite;
+    border-radius: 30px;
+
+}
+.log input[type = "submit"]
+{
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid rgb(240, 47, 80) ;
+    width: 200px;
+    height: 50px;
+    color: antiquewhite;
+    border-radius: 30px;
+    transition: 0.7s;
+}
+.log input[type = "submit"]:hover
+{
+    background:rgb(240, 47, 80) ;
+}
+span
+{
+font-size: 60px;
+/* font-family: 'VALORANT', sans-serif;   */
+}
+ p
+{
+    text-align: left;
+ color: antiquewhite;
+  margin-top: 230px;
+  margin-left: 50px;
+  font-size:28px ;
+  font-weight: 500px;
+  font-family: 'VALORANT', sans-serif;  
+  animation: moveToRight 1s ease-in-out;
+  animation-delay: 20ms;
+} 
+@keyframes moveToRight {
+    0% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(40px);
+    }
+}
