@@ -260,6 +260,7 @@ right:20% ;
     margin-bottom: -2%;
     margin-left:0% ;
     margin-right:0% ; 
+    font-family: sans-serif;
     /* padding-left: 10px; */
 }
 .foot ul li
@@ -290,6 +291,7 @@ right:20% ;
     margin-bottom: 0%;
     border-bottom:5px solid antiquewhite ;
     width: 250px;
+    font-family: sans-serif;
 }
 .f2
 {
@@ -356,6 +358,7 @@ right:20% ;
     padding-left: 1%;
     border-radius: 30px;
     width: 200px;
+    font-family: sans-serif;
 }
 .unor
 {
@@ -370,6 +373,7 @@ right:20% ;
     margin: 2%;
     margin-bottom: 22%;
     line-height: 1.5;
+    font-family: sans-serif;
 
 }
 .unor li a
